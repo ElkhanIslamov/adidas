@@ -1,0 +1,403 @@
+html,body{
+   margin: 0;
+   padding: 0;
+   
+}
+.header{
+   margin-top: 40px;
+   width: 100%;
+   height: 50px;
+   display: flex;
+   
+}
+.header>div{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   cursor: grab;
+   
+}
+.header_bottom{
+   margin-top: 60px;
+   margin-left: 500px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   cursor: grab;
+}
+.search{
+   width: 100px;
+   height: 10px;
+   border: none;
+   background-color: lightgray;
+   margin-left: 1200px;
+   cursor: grab;
+
+}
+.logo{
+   
+   width: 30px;
+   height: 30px;
+   padding-left: 30px;
+   padding-top: 20px;
+   
+}
+
+.container{
+   background-image: url(./image/adidas.jpg);
+   background-size: cover;
+   height: 100dvh;
+   
+}
+.samba{
+   padding: 220px 50px 0px 140px;
+   color: white;
+   font-weight: 100px;
+}
+.retro{
+   padding-left: 140px ;
+   color: white;
+}
+
+
+.shopmenbutton{
+   
+   width: 146px;
+   height: 44px;
+   border: 1px solid white ;
+   margin-left: 140px;
+   
+}
+
+.shopmenbutton>div:first-child{
+   width: 142px;
+   height: 40px;
+   background-color: white;
+   margin-left: -3px;
+   margin-top: -3px;
+   padding-left: 5px;
+   padding-top: 5px;
+
+}
+.button{
+   color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+   text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: x-large;
+   }
+
+.button:hover{
+   
+   color: rgb(183, 160, 131);
+  
+}
+.shopwomenbutton{
+   margin-top: 30px;
+   width: 176px;
+   height: 44px;
+   border: 1px solid white ;
+   margin-left: 140px;
+   
+}
+
+.shopwomenbutton>div:first-child{
+   width: 172px;
+   height: 40px;
+   background-color: white;
+   margin-left: -3px;
+   margin-top: -3px;
+   padding-left: 5px;
+   padding-top: 5px;
+
+}
+.buttonw{
+   color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+   text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: x-large;
+   }
+
+.buttonw:hover{
+   
+   color: rgb(183, 160, 131);
+}
+.ad{
+   display: flex;
+   
+
+}
+.ad>div{
+   margin-left: 20px;
+   width: 352px;
+   height: 450px;
+   cursor: grab;
+   
+}
+.ad>div:hover{
+   border: 1px solid black;
+}
+.arrivals{
+   display: flex;
+   margin-left: 100px;
+   margin-top: 100px;
+   width: 1500px;
+   cursor: grab;
+   
+}
+.arrivals>div{
+   width: 130px;
+   height: 40px;
+   margin-bottom: 30px;
+   cursor: grab;
+   
+}
+.arrivals>div:first-child{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   background-color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   cursor: grab;
+
+   
+}
+.arrivals>div:first-child:hover{
+   color: white;
+   background-color: black;
+
+}
+
+
+.arrivals>div:nth-child(2){
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border: 1px solid black;
+   color: black;
+   background-color: white;
+   margin-left: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: grab;
+   
+}
+.arrivals>div:nth-child(2):hover{
+   color: white;
+   background-color: black;
+}
+.arrivals>div:last-child{
+   text-decoration: underline;
+   margin-left: 900px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: grab;
+   font-size: large;
+ 
+}
+.arrivals>div:last-child:hover{
+   color:white;
+   background-color: black;
+}
+.adscroll{
+   width: 1300px;
+   margin-left: 100px;
+   display: flex;
+   overflow-x: scroll;
+   gap: 10px;
+   
+}
+.adscroll>div{
+   width: 1500px;
+   
+   
+}
+.adscroll>div:hover{
+   border: 1px solid black;
+   
+}
+.shopnow{
+   display: flex;
+   margin-left: 100px;
+   width: 1300px;
+   margin-top: 20px;
+   gap: 10px;
+   cursor: grab;
+}
+.shopnow>div{
+
+}
+.iconic{
+   padding-bottom: 15px;
+   font-size: 13px;
+   color: gray;
+   margin-top: -10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shop{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-decoration: underline;
+   font-weight: bold;
+   font-size: 15px;
+   letter-spacing: 2px;
+   width: 101px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.shop:hover{
+   color:white;
+   background-color: black;
+   text-decoration: none;
+}
+.shopthird{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-decoration: underline;
+   font-weight: bold;
+   font-size: 15px;
+   letter-spacing: 2px;
+   width: 101px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -12px;
+}
+.shopthird:hover{
+   color:white;
+   background-color: black;
+   text-decoration: none;
+
+}
+
+.downbut{
+   margin-left: 100px;
+   border-bottom: 1px solid black;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   width: 400px;
+   background-color: white;
+   padding-right: 270px;
+   font-size: 40px;
+   font-weight: bold;
+   cursor: grab;
+   
+   
+}
+.downbut3{
+   margin-top: 30px;
+   
+}
+
+.downbut:hover{
+   border-bottom: 5px solid black;
+
+}
+.stories{
+   display: flex;
+   margin-top: 100px;
+   background-color:rgb(236, 237, 229) ;
+   width: 100%;
+   gap: 40px;
+   
+   margin-bottom: 0;
+}
+.stories>div{
+   
+   width: 1300px;
+  
+
+}
+.yellow{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 0;
+   height: 120px;
+   width: 100%;
+   background-color: yellow;
+   
+}
+.yellow>div:first-child{
+   padding-right: 20px;
+   
+}
+.yellow>div:last-child{
+  
+}
+
+.free{
+   
+   background-color: wyellow;
+   width: 186px;
+   height: 44px;
+   border: 1px solid black ;
+   
+   
+}
+.free>div:first-child{
+   width: 182px;
+   height: 40px;
+   background-color: black;
+   margin-left: -3px;
+   margin-top: -3px;
+   padding-left: 5px;
+   padding-top: 5px;
+
+}
+
+.buttonf{
+   color: white;
+   text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: monospace;
+}
+.footer{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: noun;
+   height: 500px;
+}
+.footer>div{
+   width: 200px;
+   height: 400px;
+   
+   text-decoration: noun;
+
+}
+.underline{
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
